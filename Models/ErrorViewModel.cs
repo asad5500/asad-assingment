@@ -1,4 +1,4 @@
-namespace assingmentmvc1.Models
+namespace WebApplication4.Models
 {
     public class ErrorViewModel
     {
