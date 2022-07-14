@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using project.Models;
 using System.Diagnostics;
-using WebApplication4.Models;
 
-namespace WebApplication4.Controllers
+namespace project.Controllers
 {
     public class HomeController : Controller
     {
@@ -17,6 +17,12 @@ namespace WebApplication4.Controllers
         {
             return View();
         }
-      
+
+       
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
     }
 }

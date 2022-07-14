@@ -1,4 +1,4 @@
-body {
+﻿body {
     font-family: 'Glory', sans-serif;
     margin: 0%;
     background: #eee;
@@ -48,9 +48,9 @@ main {
     padding-left: 1rem;
 }
 
-    #landing-text h2 {
-        color: #888;
-    }
+#landing-text h2 {
+    color: #888;
+}
 
 #landing-image {
     background-position: center;
@@ -72,9 +72,9 @@ main {
     transition: backgroung500ms ease;
 }
 
-    .btn:hover {
-        background-color: #f4f4f4;
-    }
+.btn:hover {
+    background-color: #f4f4f4;
+}
 
 #header {
     padding: 1.5rem;
@@ -83,13 +83,13 @@ main {
     color: #fff;
 }
 
-    #header h2 {
-        border-left: dotted 3px #fff;
-        border-right: dotted 3px #fff;
-        display: inline-block;
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
+#header h2 {
+    border-left: dotted 3px #fff;
+    border-right: dotted 3px #fff;
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 
 .caption {
     padding: 0.8rem;
@@ -103,7 +103,7 @@ footer {
     color: #333;
 }
 
-    footer h3 {
-        font-size: 5rem;
-        margin-bottom: 0;
-    }
+footer h3 {
+    font-size: 5rem;
+    margin-bottom: 0;
+}
